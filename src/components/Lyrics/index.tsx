@@ -16,20 +16,3 @@ export const Lyrics = () => {
    </LyricsContainer> 
   )
 }
-
-//! Query string
-/* export const Lyrics = () => {
-
-  const location = useLocation()
-
-  const data:string[] = location.state;
-
-  const [song, lyrics] = data;
-
-  return (
-   <LyricsContainer>
-    <h3>{song}</h3>
-    <p>{lyrics}</p>
-   </LyricsContainer> 
-  )
-} */
